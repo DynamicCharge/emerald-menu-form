@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bootstrap - Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<link href="./assets/styles/main.css" rel="stylesheet"></head>
+<body>
+
+    <main>
+        <section class="booking">
+            <div class="booking-container">
+                <form action="" class="booking__form">
+                    <h2 class="booking__form__header">Резерв банкетного зала</h2>
+                    <p class="booking__form__desc">
+                        Пожалуйста заполните форму заявки и мы свяжемся с Вами как можно быстрее, чтобы обсудить Ваше событие!
+                    </p>
+                    <div class="booking__form__wrap">
+                        <div class="booking__form__input__container">
+                            <input type="email" placeholder="E-mail*" required class="booking__form__input">
+                            <input type="phone" placeholder="Телефон*" class="booking__form__input">
+                            <input type="text" placeholder="Имя*" required class="booking__form__input">
+                            <input type="text" placeholder="Фамилия" class="booking__form__input">
+                            <input type="text" placeholder="Кол-во гостей" class="booking__form__input">
+                            <input type="text" placeholder="Дата события*" required class="booking__form__input">
+                        </div>
+                        <textarea placeholder="Комментарий" name="" id="" cols="30" rows="10" class="booking__form__input"></textarea>
+                    </div>
+                    <div class="booking__form__bot">
+                        <label class="booking__form__label">
+                            <input type="checkbox" class="booking__form__check">
+                            <div class="booking-form__custom-check">
+                                <img src="assets/img/checkbox.svg" alt="">
+                            </div>
+                            <span>
+                                Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с ФЗ от 27.07.2006 года № 152-ФЗ «О персональных данных», на условиях и для целей, определяемых в Согласии на <a href="">обработку</a> персональных данных.
+                            </span>
+                        </label>
+                        <button class="booking__form__submit" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
