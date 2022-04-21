@@ -1,6 +1,30 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./header.html":
+/*!*********************!*\
+  !*** ./header.html ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ "../node_modules/html-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/logo.png */ "./assets/img/logo.png"), __webpack_require__.b);
+// Module
+var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
+var code = "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Bootstrap - Test</title>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js\"></script>\r\n    <script src=\"https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js\"></script>\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css\">\r\n</head>\r\n    <body>\r\n            <header class=\"new-header\">\r\n                <div class=\"header__container\">\r\n                    <a href=\"\" class=\"new-header__logo\">\r\n                        <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" alt=\"\">\r\n                    </a>\r\n\r\n                    <div class=\"hamburger\">\r\n                        <div class=\"hamburger__icon\">\r\n                            \r\n                        </div>\r\n                        <div class=\"hamburger__label\">Меню</div>\r\n                    </div>\r\n\r\n                    <div class=\"new-header__wrapper\">\r\n                        <div class=\"new-header__top\">\r\n                            <div class=\"new-header__language\">\r\n                                <span class=\"dropdown__trigger new-header__language__span\" data-language=\"\">Ru</span>\r\n                                <ul class=\"dropdown\">\r\n                                    <li data-language=\"Eng\" class=\"dropdown__item _choose__language\">Eng</li>\r\n                                    <li data-language=\"Ru\" class=\"dropdown__item _choose__language\">Ru</li>\r\n                                </ul>\r\n                            </div>\r\n                            <div class=\"new-header__contacts\">\r\n                                <span class=\"new-header__adress\">Россия, Санкт-Петербург, Суворовский пр., 18</span>\r\n                                <a href=\"\" class=\"new-header__phone\">+7 (812) 501-28-96</a>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"new-header__bot\">\r\n                            <nav class=\"new-header__nav\">\r\n                                <ul class=\"new-header__list\">\r\n                                    <li class=\"new-header__list__item\"><a href=\"\" class=\"new-header__list__item__link\">Номера и цены</a></li>\r\n                                    <li class=\"new-header__list__item\">\r\n                                        <a href=\"\" class=\"new-header__list__item__link dropdown__trigger\">Рестораны</a>\r\n                                        <ul class=\"dropdown\">\r\n                                            <li  class=\"dropdown__item\"><a href=\"\" class=\"dropdown__item__link\"> Атриум кафе версаль</a></li>\r\n                                            <li  class=\"dropdown__item\"><a href=\"\" class=\"dropdown__item__link\"> room dnd</a></li>\r\n                                            <li  class=\"dropdown__item\"><a href=\"\" class=\"dropdown__item__link\"> Лобби бар Суворовский</a></li>\r\n                                            <li  class=\"dropdown__item\"><a href=\"\" class=\"dropdown__item__link\"> Кондитерская</a></li>\r\n                                        </ul>\r\n                                    </li>\r\n                                    <li class=\"new-header__list__item\">\r\n                                        <a href=\"\" class=\"new-header__list__item__link dropdown__trigger\">Конференц-залы</a>\r\n                                        <ul class=\"dropdown\">\r\n                                            <li  class=\"dropdown__item\"><a href=\"\" class=\"dropdown__item__link\"> Атриум кафе версаль</a></li>\r\n                                            <li  class=\"dropdown__item\"><a href=\"\" class=\"dropdown__item__link\"> room dnd</a></li>\r\n                                            <li  class=\"dropdown__item\"><a href=\"\" class=\"dropdown__item__link\"> Лобби бар Суворовский</a></li>\r\n                                            <li  class=\"dropdown__item\"><a href=\"\" class=\"dropdown__item__link\"> Кондитерская</a></li>\r\n                                        </ul>\r\n                                    </li>\r\n                                    <li class=\"new-header__list__item\"><a href=\"\" class=\"new-header__list__item__link\">Свадьбы</a></li>\r\n                                    <li class=\"new-header__list__item\"><a href=\"\" class=\"new-header__list__item__link\">Банкеты</a></li>\r\n                                    <li class=\"new-header__list__item\"><a href=\"\" class=\"new-header__list__item__link\">Wellness</a></li>\r\n                                    <li class=\"new-header__list__item\"><a href=\"\" class=\"new-header__list__item__link\">Контакты</a></li>\r\n                                    <li class=\"new-header__list__item\"><a href=\"\" class=\"new-header__booking\">Бронировать номер</a></li>\r\n                                </ul>\r\n                            </nav>\r\n                            \r\n                        </div>\r\n\r\n                    </div>\r\n                    <div class=\"new-header__widget\">\r\n                            \r\n                    </div>\r\n                </div>\r\n            </header>\r\n    </body>\r\n</html>";
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
+
+/***/ }),
+
 /***/ "./index.html":
 /*!********************!*\
   !*** ./index.html ***!
@@ -10989,6 +11013,17 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 "use strict";
 module.exports = __webpack_require__.p + "assets/img/checkbox..svg";
 
+/***/ }),
+
+/***/ "./assets/img/logo.png":
+/*!*****************************!*\
+  !*** ./assets/img/logo.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/img/logo..png";
+
 /***/ })
 
 /******/ 	});
@@ -11132,6 +11167,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _vendor_slick_min_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vendor/slick.min.js */ "./assets/scripts/vendor/slick.min.js");
 /* harmony import */ var _vendor_slick_min_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_vendor_slick_min_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../index.html */ "./index.html");
+/* harmony import */ var _header_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../header.html */ "./header.html");
 /* provided dependency */ var $ = __webpack_require__(/*! jquery */ "../node_modules/jquery/dist/jquery.js");
 //SCSS
 
@@ -11143,10 +11179,10 @@ __webpack_require__.r(__webpack_exports__);
 //HTML
 
 
+
 $(document).ready(function() {
    $('.dropdown__trigger').on('click', function(e){
        e.preventDefault();
-       
        var target = $(this).parent().find('.dropdown');
        if(!target.hasClass('_is-open')) {
            
